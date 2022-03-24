@@ -1,0 +1,190 @@
+body {
+    background-color: rgba(5, 5, 5, 0.959);
+    color:rgba(250, 237, 237, 0.726);
+    text-align:center;
+    padding-top:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Epilogue', sans-serif;
+}
+.contain {
+    position: absolute;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.me {
+    position:relative;
+    width:50%;
+    height:50%;
+    top:25em;
+    left:47em;
+    opacity: 20%;
+    z-index: -1;
+    
+}
+
+.welcome {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 3.4375em;
+    text-align:center;
+}
+
+.home_page{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:rgb(151, 137, 5);
+    font-size:2em;
+}
+
+.first_divider{
+    width:80%;
+    height: 15px;
+    border: 0;
+    border-bottom: 5px solid rgba(10, 56, 59, 0.514);
+    -webkit-animation: separator-width 5s ease-out forwards;
+    animation: separator-width 5s ease-out forwards;
+}
+
+@-webkit-keyframes separator-width
+{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes separator-width {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.container {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.crescent_moon {
+    margin:20px;
+    position:absolute;
+    left: 150px;
+    height:60px;
+    bottom:30px;
+    opacity: 0.75;
+}
+.speech{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 25px 50px 75px 100px;
+    line-height: 25px;
+    opacity:75%;
+}
+
+
+/*Home page buttons*/
+
+/*About me*/
+.main_link {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    border: 0.1em solid rgb(114, 136, 138);
+    border-radius: 5px;
+    box-shadow: 2px 1px rgba(39, 47, 47, 0.637);
+    padding: 5px;
+    margin:10px;
+    margin-right: 10px;
+}
+
+a.main_link:link{
+    color:rgba(255, 255, 255, 0.746);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.main_link:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+}
+
+a.main_link:hover{
+    color:rgb(91, 102, 26);
+   
+}
+
+a.main_link:active {
+    color:rgba(197, 136, 136, 0.815) ;
+}
+
+
+.links {  /*center a div*/
+    position: relative;
+    left:20.5em;
+    margin:auto;
+    padding:50px 0 50px 50px;
+    display: inline-block;
+    }
+
+.wrapper {
+    text-align:center;
+    } 
+
+
+
+
+
+
+
+/*For laptop screens*/
+@media (max-width: 1400px) { /* common laptop */
+    .links {  /*center a div*/
+        position: relative;
+        left:12.5em;
+        margin:auto;
+        padding:50px 0 50px 50px;
+        display: inline-block;
+        font-size: 25px;
+        }
+}
+
+@media (max-width: 1900px) { /* my laptop */
+    .links {  /*center a div*/
+        position: relative;
+        left:5em;
+        margin:auto;
+        padding:50px 0 50px 50px;
+        display: inline-block;
+        font-size: 25px;
+        }
+    .me {
+        position:relative;
+        width:50%;
+        height:50%;
+        top:25em;
+        left:33em;
+        opacity: 20%;
+        z-index: -1;
+    }
+}
+
+
+@media (max-width: 850px) { /* josh laptop*/
+    .links {  /*center a div*/
+        position: relative;
+        left:20.5em;
+        margin:auto;
+        padding:50px 0 50px 50px;
+        display: inline-block;
+        font-size: 25px;
+    }
+}

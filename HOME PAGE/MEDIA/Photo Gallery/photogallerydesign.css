@@ -1,0 +1,125 @@
+body {
+    background-color: rgba(0, 0, 0, 0.966);
+    color:rgb(202, 202, 202);
+}
+
+h1 {
+    color:rgba(200, 255, 246, 0.623);
+    text-align: center;
+}
+
+p {
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.name {
+    color: rgb(109, 105, 74);
+}
+
+.intro_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(0, 55, 59);
+    border-radius: 8px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.picture_design {
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+    opacity: 0.75;
+    border-radius:50px;
+}
+
+img:hover.picture_design {
+    opacity: 1;
+    box-shadow: 2px 50px 30px rgb(0, 0, 0);
+}
+
+
+
+
+/*main links */
+.links {  /*center a div*/
+    font-family: 'Epilogue', sans-serif;
+    margin:auto;
+    padding:20px;
+    display: inline-block;
+    font-size: 24px;
+    }
+
+.wrapper {
+    text-align:center;
+    } 
+
+/*main links */
+.main_link {
+    margin:25px;
+    }
+
+a.main_link:link{
+    color:rgba(144, 219, 207, 0.472);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.main_link:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.main_link:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.main_link:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+/*HOME*/
+.home {
+    display: block;
+    text-align: center;
+    margin:40px;
+    font-size:20px;
+    }
+
+a.home:link{
+    color:rgba(97, 131, 163, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.home:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.home:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.home:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+
+.upper_hr {  /* hr design */        
+    height: 5px;
+    border: 0;
+    box-shadow: inset 2000px 12px 20px -10px rgba(19, 126, 133, 0.246);
+    }
+
+hr {  /* hr design */        
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 55, 59, 0.5);
+    }

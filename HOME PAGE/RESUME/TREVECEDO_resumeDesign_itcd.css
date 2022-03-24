@@ -1,0 +1,208 @@
+body { /*main body */
+    background-color: rgba(0, 0, 0, 0.966);
+    }
+
+b {
+    color: teal;
+    }
+
+i {
+    color: rgb(151, 137, 5);
+    }
+
+img{ /* punpun image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(0, 55, 59);
+    border-radius: 8px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    }
+
+/*main links */
+.links {  /*center a div*/
+    font-family: 'Epilogue', sans-serif; 
+    margin:auto;
+    padding:20px;
+    display: inline-block;
+    font-size: 18px;
+    }
+
+.wrapper {
+    text-align:center;
+    } 
+
+/*main links */
+.main_link {
+    margin:25px;
+    }
+
+a.main_link:link{
+    color:rgba(144, 219, 207, 0.472);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.main_link:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.main_link:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.main_link:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+/*HOME*/
+.home {
+    display: block;
+    text-align: center;
+    margin:40px;
+    font-size:20px;
+    }
+
+a.home:link{
+    color:rgba(97, 131, 163, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.home:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.home:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.home:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+/* most of what's written inside is located here */
+.name {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    text-align: center;
+    font-size: 3.125em;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    }
+.hello {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    text-align: center;
+    color:rgb(202, 202, 202);
+    }
+.about {
+    font-family: Georgia,"Times new roman", Times, serif;
+    text-align: center;
+    color: rgb(1, 97, 97);
+    margin: 0px 0px 0px 0px;
+    }
+.aboutSelf {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    text-align: center;
+    letter-spacing: 1.25px;
+    padding: 1em;
+    color:rgb(189, 188, 188);
+    font-size: 1.5625em;
+    margin: 0px 0px 0px 0px;
+    }
+
+.itStudent {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    text-align: center;
+    color:rgb(151, 137, 5);
+    margin: -50px 0px 25px 0px;
+    }
+
+.title {
+    font-family: Georgia,"Times new roman", Times, serif; 
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(3, 97, 97);
+    font-size: 3.125em;
+    }
+.titleHR {
+    width:25%;
+    background: aqua;
+    }    
+.list{
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    list-style-type:disc;
+    color:rgb(179, 179, 179);
+    display: table;
+    margin: 0 auto;
+    font-size: 1.5625em;
+    }
+
+.characterReference {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    color:rgb(163, 163, 163);
+    text-align:center;
+    letter-spacing: 1.25px;
+    }  
+
+.updated {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    color: rgb(163, 163, 163);
+   }
+
+/*-------------------------------------------------------------------------------*/
+
+
+* {box-sizing: border-box} /* Used for the percentage skill box */
+
+.container {
+    width: 50%;
+    background-color: #ddd;
+    margin:auto;
+    }
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(151, 137, 5);
+    }   
+
+.particularSkill {
+    font-family: Arial, Verdana, Bahnscript, Sans-serif;
+    text-align: left;
+    color:rgb(148, 119, 22);
+    }
+
+.graphical {width: 90%; background-color: rgb(0, 55, 59);}
+.webdev {width: 80%; background-color: rgb(0, 55, 59);}
+.programming {width: 65%; background-color: rgb(0, 55, 59);}
+.msoffice {width: 60%; background-color: rgb(0, 55, 59);} 
+.troubleshooting {width: 50%; background-color: rgb(0, 55, 59);} 
+                         /* Used for the percentage skill box */
+
+
+
+
+.hrDivider {  /* hr design */        
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 55, 59, 0.5);
+    }
+
+.header pre { /* fake header not really interactable */
+            font-family: Georgia,'Times New Roman', Times, serif;
+            letter-spacing: 1.5px;
+            word-spacing: 4px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid black;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 50px 30px 50px 80px;
+            border-image: linear-gradient(to left, rgb(24, 24, 24), rgb(0, 55, 59)) 1 0;
+            }
+
