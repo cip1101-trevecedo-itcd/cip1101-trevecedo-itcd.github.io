@@ -1,0 +1,314 @@
+body {
+    background-color: rgba(5, 5, 5, 0.959);
+    color: rgba(204, 204, 204, 0.815);
+    text-align: center;
+    padding-top:20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    }
+p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align:justify;
+
+}
+
+hr {  /* hr design */        
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 55, 59, 0.5);
+    }
+
+img {
+    width:15%;
+    height: 15%;
+    margin: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+    opacity: 75%;
+    border-radius:50px;
+ 
+}
+
+h1 {
+    color:rgb(107, 85, 31);
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+.music {
+    color: rgba(163, 163, 163, 0.815);
+}
+
+
+/*J-Indie*/
+.j_indie_title {
+    text-align: left;
+    margin-left:100px;
+}
+
+
+.J_wraps {
+    display: flex;
+    align-items:center;
+}
+
+
+
+.J_indie_1 {
+    margin-right: 1.5em;
+}
+
+.J_bandname_1 {
+    font-size:15px;
+    text-align: left;
+    margin-left:50px;
+}
+
+.J_bandname_2 {
+    font-size:20px;
+    text-align: left;
+    margin-left:120px;
+}
+
+.J_bandname_3 {
+    font-size:20px;
+    text-align: left;
+    margin-left:70px;
+}
+
+
+
+.J_music_title_1 {
+    font-size:15px;
+    text-align: left;
+    margin-left:50px;
+}
+
+.J_music_title_2 {
+    font-size:15px;
+    text-align: left;
+    margin-left:25px;
+}
+
+.J_music_title_3 {
+    font-size:15px;
+    text-align: left;
+    margin-left:89px;
+}
+
+
+
+/*rock */
+
+.rock_title {
+    text-align: right;
+    margin-right:125px;
+}
+
+
+.rock_wraps {
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+}
+
+.rock_bandname_1 {
+    font-size:20px;
+    text-align: right;
+    margin-right:100px;
+}
+
+.rock_bandname_2 {
+    font-size:20px;
+    text-align: right;
+    margin-right:50px;
+}
+
+.rock_bandname_3 {
+    font-size:20px;
+    text-align: right;
+    margin-right:100px;
+}
+
+.rock_music_title_1 {
+    font-size:15px;
+    text-align: right;
+    margin-right:105px;
+}
+
+.rock_music_title_2 {
+    font-size:15px;
+    text-align: right;
+    margin-right:20px;
+}
+
+.rock_music_title_3 {
+    font-size:15px;
+    text-align: right;
+    margin-right:100px;
+}
+
+
+/*Alternative */
+
+.alternative_title {
+    text-align: left;
+    margin-left:40px;
+}
+
+.alternative_bandname_1 {
+    font-size:20px;
+    text-align: left;
+    margin-left:100px;
+}
+
+.alternative_bandname_2 {
+    font-size:20px;
+    text-align: left;
+    margin-left:72px;
+}
+
+.alternative_bandname_3 {
+    font-size:20px;
+    text-align: left;
+    margin-left:80px;
+}
+
+.alternative_music_title_1 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 105px;
+}
+
+.alternative_music_title_2 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 57px;
+}
+
+.alternative_music_title_3 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+
+
+/*Synthwave */
+
+.synthwave_title {
+    text-align: right;
+    margin-right:85px;
+}
+
+.synthwave_bandname_1 {
+    font-size:20px;
+    text-align: right;
+    margin-right:105px;
+}
+
+
+.synthwave_bandname_2 {
+    font-size:20px;
+    text-align: right;
+    margin-right:105px;
+}
+
+
+.synthwave_bandname_3 {
+    font-size:20px;
+    text-align: right;
+    margin-right:90px;
+}
+
+.synthwave_music_title_1 {
+    font-size:15px;
+    text-align: right;
+    margin-right:60px;
+}
+
+.synthwave_music_title_2 {
+    font-size:15px;
+    text-align: right;
+    margin-right:110px;
+}
+
+.synthwave_music_title_3 {
+    font-size:15px;
+    text-align: right;
+    margin-right:105px;
+}
+
+
+
+
+
+
+/*main links */
+.links {  /*center a div*/
+    font-family: 'Epilogue', sans-serif;
+    margin:auto;
+    padding:20px;
+    display: inline-block;
+    font-size: 24px;
+    }
+
+.wrapper {
+    text-align:center;
+    } 
+
+/*main links */
+.main_link {
+    margin:25px;
+    }
+
+a.main_link:link{
+    color:rgba(144, 219, 207, 0.472);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.main_link:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.main_link:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.main_link:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+/*HOME*/
+.home {
+    display: block;
+    text-align: center;
+    margin:40px;
+    font-size:20px;
+    }
+
+a.home:link{
+    color:rgba(97, 131, 163, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.home:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.home:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.home:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }

@@ -1,0 +1,137 @@
+body {
+    background-color: rgba(5, 5, 5, 0.959);
+    color: rgba(204, 204, 204, 0.815);
+    text-align: center;
+    padding-top:20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    }
+
+
+hr {  /* hr design */        
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 55, 59, 0.5);
+    }
+
+.wraps {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin:0px;
+    display:inline-block;
+    width: 75%;
+}
+
+
+.wrapper {
+    text-align:center;
+} 
+
+
+.show_title_1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size:50px;
+    text-align:left;
+    margin-left:5.70em;
+}
+
+.tv_show_title {
+    font-family: 'Epilogue', sans-serif;
+    font-size:60px;
+    margin-bottom: 100px;
+}
+
+p {
+    font-family: 'Epilogue', sans-serif;
+    text-align: justify;
+    font-size:15px;
+    line-height:30px;
+    margin-right:100px;
+    margin-left:100px; 
+}
+
+.genre {
+    font-size:20px;
+    text-transform:lowercase;
+    word-spacing: 20px;
+}
+
+.about_film {
+    color:rgb(91, 102, 26);
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+    font-size:30px;
+    line-height:40px;
+
+}
+
+.author {
+    color:rgba(31, 170, 180, 0.842);
+}
+
+video {
+    margin-bottom:11em;
+}
+
+/*main links */
+.links {  /*center a div*/
+    font-family: 'Epilogue', sans-serif;
+    margin:auto;
+    padding:20px;
+    display: inline-block;
+    font-size: 24px;
+    }
+
+/*main links */
+.main_link {
+    margin:25px;
+    }
+
+a.main_link:link{
+    color:rgba(144, 219, 207, 0.472);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.main_link:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.main_link:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.main_link:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
+
+/*HOME*/
+.home {
+    display: block;
+    text-align: center;
+    margin:40px;
+    font-size:20px;
+    }
+
+a.home:link{
+    color:rgba(97, 131, 163, 0.897);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+a.home:visited {
+    color:rgb(64, 103, 105) ;
+    text-decoration: none;
+    }
+
+a.home:hover{
+    color:rgb(91, 102, 26);
+    }
+
+a.home:active {
+    color:rgba(197, 136, 136, 0.815) ;
+    }
