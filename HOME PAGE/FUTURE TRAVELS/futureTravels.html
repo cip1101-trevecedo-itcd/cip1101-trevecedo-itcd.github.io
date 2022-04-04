@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">   
+	<meta name="author" content="TREVECEDO, LUC ELRIC R.">
+
+	<title>Future Travels</title>
+	
+    <link rel ="icon" href="../RESUME/punpun.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@187&family=Montserrat+Subrayada&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script language = "JavaScript">
+		function writeText (txt) {
+			  document.getElementById("desc").innerHTML = txt;
+		  }
+  
+		  function dissolveText(txt) {
+			  document.getElementByID("desc").innerHTML = txt;
+		  }
+	</script>
+
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="futureTravels.css">
+	<!--TREVECEDO, LUCELRIC-->
+	<!--03/04/2022-->
+
+
+    <div class ="wrapper">
+        <div class ="links">
+            <a class="main_link" href ="../HomePage.html">_Home_</a>
+        </div>
+    </div>
+
+    <h1>FUTURE TRAVELS</h1>
+
+    <p id="desc"></p>
+
+    <img src = "../MEDIA/placesToVisit.png" alt="Picture of different country map designed in a way that is beautiful" title="Picture of different country map designed in a way that is beautiful" usemap="#future_travels">
+
+    <map name="future_travels">
+        <area shape="rect" coords="5, 8, 359, 395" href="greece.html" onMouseOver="writeText('Did you know? No part of Greece is more than 137 kilometres away from the ocean.'); "/>
+
+        <area shape="rect" coords="365, 328, 626, 739" href="france.html" onMouseOver="writeText('Did you know? France is the largest country in the EU and sometimes called the hexagon.');"/>
+
+
+        <area shape="rect" coords="3, 522, 347, 997" href="southKorea.html" onMouseOver="writeText('Did you know? South Korea is the world leader in internet connectivity. Approximately 92% of the countrys population are internet users.');"/>
+
+        <area shape="rect" coords="677, 4, 1000, 421" href="japan.html" onMouseOver="writeText('Did you know? The worlds oldest company is in Japan Kongo Gumi is the oldest operating business in the world, established in 578.');"/>
+
+        <area shape="rect" coords="634, 504, 998, 997" href="newZealand.html" onMouseOver="writeText('Did you know? New Zealand was the first country with universal suffrage This means that New Zealand was the first country in which the vote for women was approved, in 1893.');"/>
+         
+    </map>
+
+</body>
+</html>
