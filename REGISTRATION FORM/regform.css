@@ -1,0 +1,170 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.title {
+    padding: 10px;
+    background-color: rgb(184, 4, 4);
+    color:white;
+}
+
+td {
+  padding: 5px;
+}
+
+#registration_form {
+    border-collapse: collapse;
+    border: 3px solid red;
+    width: 100%;
+  }
+
+/*th, td {
+  border: 1px solid black;
+}*/
+  
+/*#registration_form th, #registration_form td {
+    border: 1px solid black;
+  }*/
+
+
+#subject {
+    vertical-align: top;
+    padding-left: 3em;
+    padding-top: 5px;
+  }
+  
+#schedule {
+    text-align: right;
+  }
+
+#center {
+    text-align: center;
+  }
+  
+tr.category {
+    background-color: rgb(186, 5, 5);
+    color: white;
+  }
+  
+#total {
+    border-bottom: 1px solid black;
+
+  }
+  
+h1 {
+    color:rgb(173, 2, 2);
+  }
+
+
+th.section {
+    text-align: left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5.5em;
+    color:red;
+  }
+
+.tree {
+    vertical-align: top;
+    padding:5px;
+}
+
+.red_centered{
+    color:rgb(85, 0, 0);
+    text-align:right;
+    padding-right:0em;
+}
+
+.titles {
+    padding:5px;
+}
+
+.mega_padding {
+    padding-bottom:5em;
+}
+
+.ddr {
+    padding:0.5em;
+    padding-right:3em;
+}
+
+.subject_section {
+    padding:0.5em;
+}
+
+.heading_table {
+  padding: 5em;
+  width:100%;
+}
+
+.logo {
+  width:100%;
+  height:10em;
+}
+
+.pads {
+  padding:3em;
+  text-align: left;
+  line-height: 1.5em;
+  color:rgb(192, 6, 6);
+  font-weight: bold;
+}
+
+.pads_p1 {
+  padding:3em;
+  padding-left:12em;
+  text-align: left;
+  line-height: 1.5em;
+  color:rgb(192, 6, 6);
+  font-weight: bold;
+}
+
+.pads_p2 {
+  padding:3em;
+  text-align: left;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.Main_Title {
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left:3em;
+  padding-right:2em;
+  color:rgb(192, 6, 6);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+.space {
+  padding-left:1em;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 1900px) {
+   .pads {
+    padding:3em;
+    color:rgb(0, 0, 0);
+    font-size:14px;
+    }
+
+    .logo {
+      width:10em;
+      height:10em;
+    }
+
+    .Main_Title {
+      padding-left:2em;
+      padding-right:1em;
+      font-size: 30px;
+    }
+
+    .pads_p1 {
+      font-size: 13px;
+    }
+    
+    .pads_p2 {
+      font-size: 13px;
+    }
+}
