@@ -145,7 +145,7 @@ th.section {
 @media (max-width: 1900px) {
    .pads {
     padding:3em;
-    color:rgb(0, 0, 0);
+    color:rgb(192, 6, 6);
     font-size:14px;
     }
 
@@ -167,4 +167,31 @@ th.section {
     .pads_p2 {
       font-size: 13px;
     }
+
+@media (max-width: 1600px) {
+      .pads {
+       padding:3em;
+       color:rgb(192, 6, 6);
+       font-size:8px;
+      }
+
+      .logo {
+        width:5em;
+        height:5em;
+      }
+
+      .Main_Title {
+        padding-left:2em;
+        padding-right:1em;
+        font-size: 20px;
+      }
+
+      .pads_p1 {
+        font-size: 10px;
+      }
+      
+      .pads_p2 {
+        font-size: 10px;
+      }
+  }
 }
