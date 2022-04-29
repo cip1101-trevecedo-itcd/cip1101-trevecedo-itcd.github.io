@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Author" content="TREVECEDO, LUC ELRIC R.">
+    <meta name="Description" content="Pizza Order Form">
+
+	<title>Pizza Order Form</title>
+
+    <link rel ="icon" href="TREVECEDO_IMAGES_ITCD/pizza.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@187&family=Montserrat+Subrayada&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="TREVECEDO_IMAGES_ITCD/TREVECEDO_pizzaOrderForm_ITCD.css">
+</head>
+
+<body>
+	<!--TREVECEDO, LUCELRIC-->
+	<!--24/04/2022-->
+
+    <div class="sidenav">
+        <a href="#Customer_Information" class="customer_info">Customer Information</a>
+        <br>
+        <p>Food Selection</p>
+        <a href="#Order_form">Order Form</a>
+        <hr width="80%">
+        <br>
+        <a href="#Burgers">Burgers</a>
+        <a href="#Pasta">Pasta</a>
+        <a href="#Fries">Fries</a>
+        <a href="#Drinks">Drinks</a>
+        <br>
+        <p>We Deliver</p>
+        <a href="#Delivery">Delivery</a>
+        <br>
+        <p>Others</p>
+        <a href="#Feedback">FeedBack</a>
+        
+        <br><br><br><br><br><br><br><br><br><br>
+        <div class="checks">
+            <a href="#Checkout" class="check_out">CheckOut ></a>
+        </div>
+    </div>
+      
+      <div class="main">
+        <h2><sub>welcome to</sub> Pizza the Taste of Manila</h2>
+        <hr class="retro" NOSHADE width="50%">
+        <hr class="retro" NOSHADE width="30%">
+        <hr class="retro" NOSHADE width="10%">
+
+        <table>
+            <thead>
+                <tr>
+                    <td><p id="Customer_Information">Customer Information</p></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <form action="" method="post" autocomplete="on">
+                                <fieldset>
+                                    <legend>please fill out the forms</legend>
+
+
+                                    <br>
+                                    <label for="fullname">Name: </label>
+                                    <input type="text" name="fullname" id="fullname" required autofocus placeholder="Enter your name here">
+                                    
+                                    <span class="BR"> </span>
+
+                                    <label for="address">Address: </label>
+                                    <input type="text" name="address" id="address" required placeholder="Enter your address here"> 
+                                    
+                                    <span class="BR"> </span>
+
+                                    <label for="email">Email: </label>
+                                    <input type="text" name="email" id="email"  required placeholder="sample@gmail.com">
+
+                                    <span class="BR"> </span>
+
+
+                                    <label for="contact_number">Contact Number: </label>
+                                    <input type="text" name="contact_number" id="contact_number" required placeholder="e.g. 999-999-9999">
+
+                                    <span class="BR"> </span>
+                                    <label for="message">Location Description: </label>
+                                    <textarea name="message" id="message" placeholder="Additional Description of your location you can input e.g.(nearest landmarks, number of house etc...)"></textarea>
+
+                                    <tr>
+                                        <th><p id="Order_form" class="heading_title">Order Form</p></th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <fieldset>
+                                                <legend>This is your order form</legend>
+                                                
+                                                
+                                                <h1 class="food_titles">Order</h1>
+                                                
+                                                <img src="TREVECEDO_IMAGES_ITCD/burger.png" alt="A minimalist design of a burger." title="A minimalist design of a burger.">
+                                                <input type="radio" id="burger" name="order" value="burger">
+                                                <label for="burger">Burger</label>
+
+                                                <img src="TREVECEDO_IMAGES_ITCD/Pasta.png" alt="A minimalist design of a pasta." title="A minimalist design of a pasta.">
+                                                <input type="radio" id="pasta" name="order" value="pasta">
+                                                <label for="pasta">Pasta</label>
+
+                                                <img src="TREVECEDO_IMAGES_ITCD/Fries.png" alt="A minimalist design of fries." title="A minimalist design of fries.">
+                                                <input type="radio" id="fries" name="order" value="fries">
+                                                <label for="fries">Fries</label>
+
+                                                <img src="TREVECEDO_IMAGES_ITCD/Drinks.png" alt="A minimalist design of a drink." title="A minimalist design of a drink.">
+                                                <input type="radio" id="drinks" name="order" value="drinks">
+                                                <label for="drinks">Drinks</label>
+
+                                                
+                                                <br><br><br>
+                                                <h1 class="food_titles" id="Burgers">Burgers</h1>
+
+
+                                                <span class ="patty">No. of patty: </span>
+
+                                                <input type="radio" id="patty_one" name="patty" value="patty_one">
+                                                <label for="patty_one">Single patty</label>
+
+                                                <input type="radio" id="patty_two" name="patty" value="patty_two">
+                                                <label for="patty_two">Double Patty</label>
+
+
+                                                <br><br><br>
+                                                <span class="add_ons" >Add On(s): </span>
+
+                                                <input type="checkbox" id="cheese" name="Add_Ons_one" value="cheese">
+                                                <label for="cheese">Cheese</label>
+
+                                                <input type="checkbox" id="coleslaw" name="Add_Ons_two" value="coleslaw">
+                                                <label for="coleslaw">Coleslaw</label>
+
+                                                <input type="checkbox" id="tomato" name="Add_Ons_three" value="tomato">
+                                                <label for="tomato">Tomato</label>
+
+
+                                                <input type="checkbox" id="Onion" name="Add_Ons_four" value="Onion">
+                                                <label for="Onion">Onion</label>
+
+                                                <input type="checkbox" id="Cucumber" name="Add_Ons_five" value="Cucumber">
+                                                <label for="Cucumber">Cucumber</label>
+
+                                                <input type="checkbox" id="Bacon" name="Add_Ons_six" value="Bacon">
+                                                <label for="Bacon">Bacon</label>
+
+                                                <br><br><br>
+                                                <span>Choice of Bun: </span>
+
+                                                <input type="radio" id="white_bun" name="bun" value="white_bun">
+                                                <label for="white_bun">White Bun</label>
+
+                                                <input type="radio" id="wheat_bun" name="bun" value="wheat_bun">
+                                                <label for="wheat_bun">Wheat Bun</label>
+
+                                                <input type="radio" id="honey_oat" name="bun" value="honey_oat">
+                                                <label for="honey_oat">Honey Oat</label>
+
+                                                <input type="radio" id="sugar_free" name="bun" value="sugar_free">
+                                                <label for="sugar_free">Sugar Free</label>
+
+
+                                                <br><br><br>
+                                            
+                                                
+                                             
+                                                <label for="quantity_burger">Quantity: </label>
+                                                <input class= "quantity_burger" type="number" name="quantity_burger" min="0" max="50" id="quantity_burger" placeholder="0"> 
+                                            
+
+
+                                                <br><br><br>
+
+
+                                                <input type="submit" id="add_more" value="Add More">
+                                                <input type="submit" id="checking_out" value="Check Out">
+                                        
+
+                                                <h1 class="food_titles" id="Pasta">Pasta</h1>
+
+
+                                                <span>Select Sauce:</span>
+
+                                                <input type="radio" id="Carbonara" name="Sauce" value="Carbonara">
+                                                <label for="Carbonara">Carbonara</label>
+
+                                                <input type="radio" id="Pesto" name="Sauce" value="Pesto">
+                                                <label for="Pesto">Pesto</label>
+
+                                                <input type="radio" id="Spaghetti" name="Sauce" value="Spaghetti">
+                                                <label for="Spaghetti">Spaghetti</label>
+
+                                        
+
+
+                                                <br><br><br>
+                                                <span class ="extra_span">Extras:</span>
+
+
+                                                <input type="checkbox" id="extra_cheese" name="extra_cheese" value="extra_cheese">
+                                                <label for="extra_cheese">Cheese</label>
+
+                                                <input type="checkbox" id="extra_sauce" name="extra_sauce" value="extra_sauce">
+                                                <label for="extra_sauce">Sauce</label>
+
+                                                <input type="checkbox" id="extra_pasta" name="extra_pasta" value="extra_pasta">
+                                                <label for="extra_pasta">Pasta</label>
+
+
+                                                <br><br><br>
+                                                <label class="quantity_box" for="quantity_burger">Quantity (box): </label>
+                                                <input class= "quantity_burger" type="number" name="quantity_per_box" min="0" max="50" id="quantity_per_box" placeholder="0"> 
+
+                                                <br><br><br>
+                                                <input type="submit" id="add_more" value="Add More">
+                                                <input type="submit" id="checking_out" value="Check Out">
+
+
+                                                <h1 class="food_titles" id="Fries">Fries</h1>
+
+                                                <span class="flavor_span">Flavor: </span>
+
+                                                <input type="radio" id="Barbeque" name="friess" value="Barbeque">
+                                                <label for="Barbeque">Barbeque</label>
+
+                                                <input type="radio" id="Cheese" name="friess" value="Cheese">
+                                                <label for="Cheese">Cheese</label>
+
+                                                <input type="radio" id="Sour_Cream" name="friess" value="Sour_Cream">
+                                                <label for="Sour_Cream">Sour & Cream</label>
+
+                                                <br><br><br>
+                                                <label class="size" for="fries_size">Sizes: </label>
+                                                <select name="fries_size" id="fries_size">
+                                                    <option value="small">Small</option>
+                                                    <option value="medium">Medium</option>
+                                                    <option value="Large">Large</option>
+                                                </select>
+
+                                                <br><br><br>
+                                                <label for="quantity_fries">Quantity: </label>
+                                                <input class= "quantity_burger" type="number" name="quantity_fries" min="0" max="50" id="quantity_fries" placeholder="0">
+
+                                                <h1 class="food_titles" id="Drinks">Drinks</h1>
+                                                
+
+
+                                                <span class="select_type">Select Type: </span>
+
+                                                <input type="radio" id="Coke" name="drink" value="Coke">
+                                                <label for="Coke">Coke</label>
+
+                                                <input type="radio" id="Royal" name="drink" value="Royal">
+                                                <label for="Royal">Royal</label>
+
+                                                <input type="radio" id="Iced_tea" name="drink" value="Iced_tea">
+                                                <label for="Iced_tea">Iced Tea</label>
+
+                                                <input type="radio" id="Sprite" name="drink" value="Sprite">
+                                                <label for="Sprite">Sprite</label>
+
+                                                <input type="radio" id="Water" name="drink" value="Water">
+                                                <label for="Water">Water</label>
+                                        
+                                                <br><br><br>
+                                                <label class="size" for="drink_size">Sizes: </label>
+                                                <select name="drink_size" id="drink_size">
+                                                    <option value="small">Small</option>
+                                                    <option value="medium">Medium</option>
+                                                    <option value="Large">Large</option>
+                                                </select>
+                                                
+
+                                                <br><br><br>
+                                                <label for="quantity_drinks">Quantity: </label>
+                                                <input class= "quantity_burger" type="number" name="quantity_drinks" min="0" max="50" id="quantity_drinks" placeholder="0">
+                                                
+                                                
+                                                <br><br><br>
+                                                <input type="submit" id="add_more" value="Add More">
+                                                <input type="submit" id="checking_out" value="Check Out">
+
+                                                <fieldset>
+                                                    <legend id="Delivery">Choose your delivery option</legend>
+
+
+                                                    <img class="motorcycle_delivery" src="TREVECEDO_IMAGES_ITCD/delivery.png" alt="A minimalist design of a delivery motorcyle with person." title="A minimalist design of a delivery motorcyle with person.">
+                                                    <span>Delivery: </span>
+
+                                                    <input type="radio" id="delivery" name="delivery" value="delivery">
+                                                    <label for="delivery">Delivery</label>
+
+                                                    <input type="radio" id="PickUp" name="delivery" value="PickUp">
+                                                    <label for="PickUp">Pick Up</label>
+                                                </fieldset>
+
+
+                                                <fieldset>
+                                                    <div align="center">
+                                                        <br><br>
+                                                        <input id="Checkout" class= "submission" type="submit" id="submit_form" value="Submit Form">
+                                                        <input class= "submission" type="reset" id="checking_out" value="Clear Form">
+                                                    </div>
+                                                </fieldset>
+                                                <br>
+                                                <fieldset>
+                                                    <legend id="Feedback" >We love if you leave a feedback</legend>
+
+                                                    <label for="feedback">Leave us a Feedback: </label>
+                                                    <textarea name="feedback" id="feedback" placeholder=" Please leave us a feedback it would help our company more to improve and give you better experience."></textarea>
+                                                </fieldset>
+
+                                            </fieldset>
+                                        </td>
+                                    </tr>
+                                </fieldset>
+                        </form>
+                    </td>
+                </tr>      
+            </tbody>
+        </table>
+      </div>
+</body>
+</html>

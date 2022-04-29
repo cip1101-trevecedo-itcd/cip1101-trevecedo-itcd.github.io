@@ -1,0 +1,349 @@
+body {
+    background-image: url('background\ Photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    font-family: 'Epilogue', sans-serif;  
+  }
+  
+  img {
+    width:5em;
+    vertical-align: middle;  
+  }
+
+  .motorcycle_delivery {
+    width:2em;
+    vertical-align: middle;  
+  }
+
+  .retro {
+      border-color:rgb(76, 17, 53);
+      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+   }
+
+  .below_order_form {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+   }
+
+   hr {
+    box-shadow: rgba(161, 158, 249, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+   }
+  
+  div p {
+      color:white;
+      padding:10px 10px 10px 17px;
+      background-color: rgba(89, 64, 186, 0.39);
+      border-radius: 10px;      
+  }
+
+  div h2 sub {
+      font-size: 15px;
+      font-style:italic;
+  }
+
+  .customer_info {
+      text-align: center;
+      margin-top: 30px;
+  }
+
+
+  .checks {
+      margin:10px;
+  }
+  
+  .check_out {
+        color:rgb(0, 0, 0);
+        padding:10px 10px 10px 17px;
+        background-color: rgb(255, 240, 240);
+        border-radius: 30px;
+        font-weight: bold;
+        opacity: 50%;
+        text-align: center;
+        margin-bottom:50px;
+    }
+
+  .check_out:hover {
+      font-size: 25px;
+      opacity:100%;
+    }
+
+  .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        border-radius: 30px;
+    }
+  
+  .sidenav a {
+        padding: 10px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+    }
+  
+  .sidenav a:hover {
+        color: rgba(240, 185, 241, 0.663);
+        font-size: 22px;
+    }
+  
+  .main {
+        margin-left: 200px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 50px;
+        border-color: rgb(0, 0, 0);
+        background-color: #111;
+    }
+
+   .main h2 {
+        color:rgba(240, 185, 241, 0.788);
+        background-color: rgb(0, 0, 0);
+        padding:20px;
+        border-radius: 25px;
+        text-align: center;
+        border-style: double;
+    }    
+  
+
+  /*TABLE FORMS*/
+
+   form {
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+    
+  .body_p {
+    color: rgba(255, 255, 255, 0.725);
+    background-color: #111;
+    font-size: 2px;
+  }
+
+
+  .main table tr td p {
+    color: rgba(255, 255, 255, 0.725);
+    background-color: #111;
+  }
+
+  .main table {
+    border-radius: 15px;
+  }
+
+   .heading_title {
+    background-color: rgba(150, 74, 153, 0.531);
+    letter-spacing: 0.2em;
+  }
+
+  legend {
+    color: white;
+    font-size: 15px;
+  }
+
+  label {
+    color: white;
+    padding-right:100px;
+    font-size: 20px;
+  }
+
+  label:first-of-type {
+    padding-right:125px;
+  }
+  label:nth-of-type(2){
+    padding-right:100px;
+  }
+
+  label:nth-of-type(3){
+    padding-right:125px;
+  }
+  label:nth-of-type(4){
+    padding-right:20px;
+  }
+
+  .fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+  }
+
+  span {
+      color:white;
+      padding-right:50px;
+      font-size:20px;
+  }
+
+  .patty {
+    padding-right:76px;
+  }
+
+  .add_ons {
+    padding-right:95px;
+  }
+
+  .extra_span {
+    padding-right:120px;
+  }
+
+  .flavor_span {
+    padding-right:120px;
+  }
+
+  .size {
+    padding-right: 130px;
+  }
+
+  .select_type {
+    padding-right:65px;
+  }
+
+  .quantity_box{
+    padding-right:45px;
+  }
+
+  h1 {
+    color:rgba(255, 255, 255, 0.633);
+    background-color: rgb(39, 18, 32);
+    padding:10px;
+    margin-right:20em;
+    border-radius:30px;
+    font-size:40px;
+  }
+
+
+  .BR {
+    display: block;
+    padding:20px;
+  }
+
+  table {
+    background-color: #111;
+    width: 100%;
+  }
+
+  input[type="text"] + label + input[type="radio"] + label + input[type="checkbox"] + label{
+    display: inline-block;
+  }
+
+  input[type="text"] {
+    font-size:15px;
+    width:45em;
+    height:2em;
+    size:50;
+    border-radius:10px;
+    padding:10px 0px 10px 10px;
+  }
+
+  input[type="submit"] {
+    color:rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 30px;
+    font-weight: bold;
+    opacity: 50%;
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 20px;
+    margin-right:20px;
+  }
+
+
+  input[type="reset"] {
+    color:rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 30px;
+    font-weight: bold;
+    opacity: 50%;
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 20px;
+    margin-right:20px;
+  }
+
+  input[type="submit"].submission {
+    color: rgb(44, 2, 40);
+    background-color: rgba(200, 255, 242, 0.666);
+    opacity: 100%;
+  }
+
+  input[type="reset"].submission {
+    color: rgb(44, 2, 40);
+    background-color: rgba(200, 255, 242, 0.666);
+    opacity: 100%;
+  }
+
+  input[type="submit"].submission:hover {
+    color: rgb(255, 239, 253);
+    font-size: 25px;
+    
+  }
+
+  input[type="reset"].submission:hover {
+    color: rgb(255, 239, 253);
+    font-size: 25px;
+    
+  }
+
+  input[type="submit"]:hover {
+    font-size: 21px;
+    opacity: 100%;
+  }
+
+  input[type="reset"]:hover {
+    font-size: 21px;
+    opacity: 100%;
+  }
+
+  input[type="radio"] + label {
+    padding-right:30px;
+  }
+
+  input[type="checkbox"] + label {
+    padding-right:30px;
+  }
+
+
+  input[type="text"]:nth-of-type(4) {
+    width:20em;
+  }
+
+  textarea {
+    min-height: 10em;
+    min-width: 80%;
+    padding: .10em;
+    margin: 10px;
+    border: solid 1px rgb(100, 92, 92);
+    border-radius: 10px;
+    margin-right:.5em;
+    resize:none;
+  }
+
+  option {
+      padding: 100px;
+  }
+
+  .quantity_burger{
+      border-radius: 10px;
+      font-size: 20px;
+      height:30px;
+      width:50px;
+  }
+
+
+  select {
+    width:10em;
+    color:rgb(229, 97, 229);
+    background-color: #111;
+    border-radius: 10px;
+    height: 3em;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
